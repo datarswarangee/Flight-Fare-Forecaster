@@ -1,0 +1,18 @@
+flight_price_forecaster/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── sample_flight_prices.csv
+│
+├── r_analysis/
+│   └── flight_forecast.R
+│
+├── outputs/
+│   ├── plots/
+│   └── results/
+│
+└── utils/
+    └── data_validation.py
