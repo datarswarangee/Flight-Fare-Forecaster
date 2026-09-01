@@ -1,0 +1,36 @@
+flight_price_forecaster/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── sample_flight_prices.csv
+│
+├── r_analysis/
+│   └── flight_forecast.R
+│
+├── outputs/
+│   ├── plots/
+│   └── results/
+│
+└── utils/
+    └── data_validation.py
+-------------------------------------------------------------
+app.py
+  │
+  ├── upload_data()
+  │
+  ├── validate_data()
+  │
+  ├── select_route()
+  │
+  ├── select_target_month()
+  │
+  ├── prepare_timeseries()
+  │
+  ├── call_r_analysis()
+  │
+  ├── display_results()
+  │
+  └── display_forecast()
