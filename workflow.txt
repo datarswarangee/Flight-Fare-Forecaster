@@ -34,3 +34,54 @@ app.py
   ├── display_results()
   │
   └── display_forecast()
+---------------------------------------------------------------
+              ✈️ FLIGHT FARE FORECASTER
+
+                       ↓
+
+              Upload Flight CSV
+
+                       ↓
+
+               Validate Dataset
+
+                       ↓
+
+             Select Origin/Destination
+
+                       ↓
+
+             Select Future Month
+                  "December"
+
+                       ↓
+
+                Python prepares
+                 time series
+
+                       ↓
+
+                  Call R
+
+                       ↓
+
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+    ts()          Decomposition    Stationarity
+       ↓               ↓               ↓
+       └───────────────┼───────────────┘
+                       ↓
+                    ACF/PACF
+                       ↓
+                     ARIMA
+                       ↓
+                    Forecast
+                       ↓
+                 Return results
+                       ↓
+                  Streamlit
+                       ↓
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+   Historical       Forecast        Insights
+     Graph           ₹6,750       Moderate-High
