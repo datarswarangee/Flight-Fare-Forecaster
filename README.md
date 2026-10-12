@@ -1,4 +1,4 @@
-# ✈️ Flight Fare Forecaster
+# Flight Fare Forecaster
 
 A time-series forecasting application built using Python, Streamlit, R, and ARIMA to estimate future monthly flight fares using historical flight-price data.
 
